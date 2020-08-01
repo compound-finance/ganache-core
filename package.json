@@ -64,7 +64,6 @@
     "eslint-plugin-standard": "4.0.1",
     "ethereumjs-wallet": "0.6.3",
     "ethers": "4.0.43",
-    "husky": "4.0.10",
     "js-scrypt": "0.2.0",
     "lint-staged": "10.0.0",
     "memdown": "5.1.0",
@@ -94,11 +93,6 @@
     "url": "https://github.com/trufflesuite/ganache-core"
   },
   "license": "MIT",
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
     "*.js": [
       "prettier --write",
